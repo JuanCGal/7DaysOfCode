@@ -1,0 +1,130 @@
+
+:root{
+    --color-primario: #034242;
+    --color-secundario: #000000;
+    --color-terciario: #ffffff;
+}
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-color: var(--color-secundario);
+    color: var(--color-terciario);
+}
+
+.principal{
+    display: flex;
+}
+
+.container img{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    opacity: 0.75;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+
+header{
+    position: absolute;
+    padding: 1rem 0 1rem 6rem;
+    top: 0;
+    width: 100%;
+    height: 3.5rem;
+    background-color: var(--color-primario);
+    opacity: 0.8;
+}
+
+.inputs{
+    width: 27rem;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: absolute; 
+    top: 9rem;
+    left: 6rem;
+    padding: 1rem 2rem 2rem;
+    background-color: var(--color-primario);
+    opacity: 0.8;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.inputs div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.input{
+    height: 2.5rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    opacity: 0.8;
+    border: none;
+    outline: none;
+}
+
+.generar-saludo{
+    width: 60%;
+    height: 3.5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    opacity: 0.9;
+    border: none;
+    outline: none;
+    background-color: var(--color-secundario);
+    color: var(--color-terciario);
+    padding: 1rem;
+}
+
+.generar-saludo:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.mostrar__texto{
+    width: 27rem;
+    height: 14rem;
+    display: none;
+    flex-direction: column;
+    gap: 2rem;
+    position: absolute; 
+    top: 20rem;
+    right: 6rem;
+    padding: 1rem 2rem 2rem;
+    background-color: var(--color-primario);
+    opacity: 0.8;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    background-color: var(--color-primario);
+    height: 3.5rem;
+    align-items: center;
+    justify-content: center;
+}

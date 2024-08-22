@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es-co">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dia 2</title>
+</head>
+<body>
+    <div class="container">
+        <img src="./img/background.jpg" alt="">
+        <header>
+            <h1>Formulario</h1>
+        </header>
+        <main class="principal">
+            <form action="">
+                <div class="inputs">
+                    <div class="datos">
+                        <h2>Escribe tus datos</h2>
+                        <div class="nombres">
+                            <label for="nombres">Escribe tus nombres</label>
+                            <input type="text" name="nombres" id="nombres" class="input">
+                        </div>
+                        
+                        <div class="apellidos">
+                            <label for="apellidos">Escribe tus apellidos</label>
+                            <input type="text" name="apellidos" id="apellidos" class="input">
+                        </div>
+
+                        <div class="edad">
+                            <label for="edad">Esribe tu edad</label>
+                            <input type="number" name="edad" id="edad" class="input">
+                        </div>
+
+                        <div class="lenguaje">
+                            <label for="lenguaje">Escribe el lenguaje de programación que te gusta</label>
+                            <input type="text" name="lenguaje" id="lenguaje" class="input">
+                        </div>
+                    </div>    
+                    <button id="saludo" class="generar-saludo" onclick="generarSaludo();">Generar saludo</button>
+                </div>
+            </form>
+
+            <div class="mostrar__texto">
+                <p id="saludo">
+
+                </p>
+            </div>
+        </main>
+        <footer>
+            <p>
+                Creado por: Juan c. Galvis - Agosto 2024
+            </p>
+        </footer>
+    </div>
+
+    <script src="scripst.js"></script>
+</body>
+</html>
