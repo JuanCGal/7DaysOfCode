@@ -16,7 +16,10 @@ body{
 }
 
 .principal{
+    width: 100%;
+    height: auto;
     display: flex;
+    justify-content: center;
 }
 
 .container img{
@@ -107,7 +110,7 @@ header{
 .mostrar__texto{
     width: 27rem;
     height: 14rem;
-    display: none;
+    display: flex;
     flex-direction: column;
     gap: 2rem;
     position: absolute; 
@@ -117,8 +120,20 @@ header{
     background-color: var(--color-primario);
     opacity: 0.8;
     border-radius: 1rem;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+}
+
+#textArea{
+    background: none;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    line-height: 150%;
+    color: var(--color-terciario);
+    position: relative;
 }
 
 footer{

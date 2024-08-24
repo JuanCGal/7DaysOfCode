@@ -28,7 +28,7 @@
                         </div>
 
                         <div class="edad">
-                            <label for="edad">Esribe tu edad</label>
+                            <label for="edad">Escribe tu edad</label>
                             <input type="number" name="edad" id="edad" class="input">
                         </div>
 
@@ -37,14 +37,12 @@
                             <input type="text" name="lenguaje" id="lenguaje" class="input">
                         </div>
                     </div>    
-                    <button id="saludo" class="generar-saludo" onclick="generarSaludo();">Generar saludo</button>
+                    <button type="button" id="saludo" class="generar-saludo" onclick="generarSaludo();">Generar saludo</button>
                 </div>
             </form>
 
-            <div class="mostrar__texto">
-                <p id="saludo">
-
-                </p>
+            <div id="mostrar__texto" class="mostrar__texto">
+                <textarea id="textArea" cols="45" rows="15"></textarea>
             </div>
         </main>
         <footer>
