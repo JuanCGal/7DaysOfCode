@@ -1,0 +1,31 @@
+
+:root{
+    --color-primario: #034242;
+    --color-secundario: #000000;
+    --color-terciario: #ffffff;
+}
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-color: var(--color-secundario);
+    color: var(--color-terciario);
+}
+
+.principal img{
+    width: 100%;
+    
+}
+
+footer{
+    display: flex;
+    background-color: var(--color-primario);
+    height: 3.5rem;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin: 0;
+}
